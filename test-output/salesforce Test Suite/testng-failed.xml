@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [salesforce Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="LoginSalesforce(failed)">
+    <classes>
+      <class name="com.TestCases.TestCase01">
+        <methods>
+          <include name="teardown"/>
+          <include name="testcase"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.TestCases.TestCase01 -->
+    </classes>
+  </test> <!-- LoginSalesforce(failed) -->
+</suite> <!-- Failed suite [salesforce Test Suite] -->

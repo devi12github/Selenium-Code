@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test parallel="methods" name="Test cases(failed)">
+    <classes>
+      <class name="sampleTestNg.ParallelTesting">
+        <methods>
+          <include name="openGoogle"/>
+        </methods>
+      </class> <!-- sampleTestNg.ParallelTesting -->
+    </classes>
+  </test> <!-- Test cases(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
